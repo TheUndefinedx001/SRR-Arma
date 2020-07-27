@@ -1,0 +1,19 @@
+respawn = 3;
+respawnDelay = 1;
+respawnTemplates[] = {"MenuPosition","Counter"};
+respawnOnStart = 1;
+
+OnLoadName = "Operation Chasedown";
+author = "Special Reconnaissance Regiment";
+loadScreen = "image.jpg";
+
+class CfgDiscordRichPresence {
+    applicationID="730387798947004537";             // Provided by discord
+    defaultDetails="On the operations server";            // Upper text
+    defaultState="Attending";              // Lower text   
+    defaultLargeImageKey="actionshot";      // Large image
+    defaultLargeImageText="Special Reconnaissance Regiment | Arma 3 Casual/Semi-Milsim unit | discord.gg/A2dGyDR";     // Large image hover text
+    defaultSmallImageKey="";      // Small image
+    defaultSmallImageText="";     // Small image hover text
+    useTimeElapsed=1;             // Show time elapsed since the player connected (1 - true, 0 - false)
+};
